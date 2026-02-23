@@ -10,7 +10,7 @@
 ############################
 
 # Name of website
-title: Hanbyul Choi
+title: Welcome to Hanbyul Choi's website!
 
 # Your name to show in the footer
 author: Hanbyul Choi
@@ -21,10 +21,10 @@ author: Hanbyul Choi
 
 navbar-links:
   About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  Blog: "blog"
+#    - Beautiful Jekyll: "https://beautifuljekyll.com"
+#    - Learn markdown: "https://www.markdowntutorial.com/"
+#  Author's home: "https://deanattali.com"
 
 ################
 # --- Logo --- #
