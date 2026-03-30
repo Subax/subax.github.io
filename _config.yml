@@ -22,8 +22,9 @@ author: Hanbyul Choi
 navbar-links:
   About Me: "aboutme"
   Blog: "blog"
-    - AI/ML: "aiml"
+    - AI: "ai"
     - CS: "cs"
+    - MATH: "math"
 #  Author's home: "https://deanattali.com"
 
 ################
@@ -53,14 +54,14 @@ social-network-links:
   email: "chb3327@yonsei.ac.kr"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
 #  facebook: deanattali
-  github: subax
+  github: github.com/subax
 #  twitter: daattali
 #  patreon: DeanAttali
 #  youtube: "@daattali"
 #  whatsapp: 15551212
 #  medium: yourname
 #  reddit: yourname or r/yoursubreddit
-  linkedin: hanbyulchoi
+  linkedin: linkedin.com/in/hanbyulchoi/
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
