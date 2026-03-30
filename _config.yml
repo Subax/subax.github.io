@@ -21,10 +21,10 @@ author: Hanbyul Choi
 
 navbar-links:
 About Me: "aboutme"
-Blog: "blog"
-- AI: "ai"
-- CS: "cs"
-- MATH: "math"
+Blog:
+  - AI: "ai"
+  - CS: "cs"
+  - MATH: "math"
 #  Author's home: "https://deanattali.com"
 
 ################
