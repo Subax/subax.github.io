@@ -1,3 +1,55 @@
+폴더 구조 요약
+이 블로그는 Beautiful Jekyll 테마입니다. 핵심 폴더/파일은:
+
+경로	역할
+_posts/	실제 블로그 글이 저장되는 곳
+_config.yml	사이트 전역 설정 (제목, 네비게이션 바 메뉴 등)
+aboutme.md, cs.md, aiml.md	네비게이션 바에 뜨는 개별 "섹션" 페이지
+_layouts/, _includes/	테마 템플릿 (건드릴 일 거의 없음)
+1. 글 추가하는 법 → _posts/
+_posts/ 폴더 안에 다음 규칙으로 파일을 만들면 됩니다.
+
+파일명 규칙: YYYY-MM-DD-제목-슬러그.md (예: 2026-07-15-my-new-post.md)
+상단에 front matter 필수, 예시는 _posts/2020-02-28-sample-markdown.md 참고:
+
+---
+layout: post
+title: 글 제목
+subtitle: 부제목 (선택)
+tags: [ai, ml]
+comments: true
+mathjax: true   # 수식 쓰려면
+author: Hanbyul Choi
+---
+
+여기부터 마크다운으로 본문 작성
+tags에 넣은 값은 tags.html의 태그 인덱스 페이지와 자동 연동됩니다.
+저장하고 push하면 GitHub Pages가 알아서 빌드해서 홈(index)에 최신 글 목록으로 보여줍니다.
+2. 섹션(네비게이션 메뉴) 추가하는 법 → _config.yml + 페이지 파일
+두 단계가 필요합니다.
+
+① _config.yml의 navbar-links에 항목 추가 (23~27줄):
+
+
+navbar-links:
+About Me: "aboutme"
+Blog:
+  - AI: "ai"
+  - CS: "cs"
+  - MATH: "math"
+여기 오른쪽 값("cs", "math" 등)은 실제 파일명(확장자 제외)을 가리킵니다.
+
+② 루트에 해당 이름의 .md 파일 생성, 예: cs.md처럼:
+
+
+---
+layout: page
+title: 페이지 제목
+subtitle: 부제목
+---
+
+내용...
+
 # Beautiful Jekyll
 
 [![Gem Version](https://badge.fury.io/rb/beautiful-jekyll-theme.svg)](https://badge.fury.io/rb/beautiful-jekyll-theme)

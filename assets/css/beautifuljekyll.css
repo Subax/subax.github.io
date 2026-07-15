@@ -267,6 +267,10 @@ img {
   .navbar-custom .nav-item.dropdown:hover {
     background: rgba(0, 0, 0, 0.1);
   }
+
+  .navbar-custom .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+  }
 }
 
 .navbar-custom .nav-item.dropdown.show {

@@ -20,10 +20,18 @@ author: Hanbyul Choi
 ###############################################
 
 navbar-links:
-AI: "ai"
-Math: "math"
-Journal: "journal"
-About Me: "aboutme"
+  AI:
+    - Medical AI: "ai#medical-ai"
+    - Machine Learning: "ai#machine-learning"
+    - Deep Learning: "ai#deep-learning"
+  Math:
+    - Probability: "math#probability"
+    - Statistics: "math#statistics"
+    - Linear Algebra: "math#linear-algebra"
+  Journal:
+    - AI: "journal#journal-ai"
+    - Daily: "journal#journal-daily"
+  About Me: "aboutme"
 #  Author's home: "https://deanattali.com"
 
 # Category taxonomy used by ai.md / math.md / journal.md to group posts.
