@@ -20,12 +20,17 @@ author: Hanbyul Choi
 ###############################################
 
 navbar-links:
+AI: "ai"
+Math: "math"
+Journal: "journal"
 About Me: "aboutme"
-Blog:
-  - AI: "ai"
-  - CS: "cs"
-  - MATH: "math"
 #  Author's home: "https://deanattali.com"
+
+# Category taxonomy used by ai.md / math.md / journal.md to group posts.
+# Give each post exactly one of these in its front matter, e.g. `categories: [medical-ai]`.
+#   AI section:      medical-ai | machine-learning | deep-learning
+#   Math section:    probability | statistics | linear-algebra
+#   Journal section: journal-ai | journal-daily
 
 ################
 # --- Logo --- #
@@ -54,14 +59,14 @@ social-network-links:
   email: "chb3327@yonsei.ac.kr"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
 #  facebook: deanattali
-  github: github.com/subax
+  github: subax
 #  twitter: daattali
 #  patreon: DeanAttali
 #  youtube: "@daattali"
 #  whatsapp: 15551212
 #  medium: yourname
 #  reddit: yourname or r/yoursubreddit
-  linkedin: linkedin.com/in/hanbyulchoi/
+  linkedin: hanbyulchoi
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78

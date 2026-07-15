@@ -1,5 +1,27 @@
 ---
 layout: home
-title: My website
-subtitle: This is where I will tell my friends way too much about me
+title: Hanbyul Choi
+subtitle: AI, Math, and Journal notes
 ---
+
+<div class="intro-section text-center">
+  <h2>Hanbyul Choi</h2>
+  <p class="lead">Machine Learning / Deep Learning, Probability, Medical AI 등을 공부하고 기록하는 공간입니다.</p>
+  <p>
+    <a href="https://github.com/{{ site.social-network-links.github }}" target="_blank" rel="noopener" class="btn btn-outline-dark"><i class="fab fa-github"></i>&nbsp;GitHub</a>
+    <a href="https://linkedin.com/in/{{ site.social-network-links.linkedin }}" target="_blank" rel="noopener" class="btn btn-outline-primary"><i class="fab fa-linkedin"></i>&nbsp;LinkedIn</a>
+  </p>
+</div>
+
+{% if site.data.notices and site.data.notices.size > 0 %}
+<div class="notice-section box-note">
+  <h2>Notice</h2>
+  <ul>
+    {% for notice in site.data.notices %}
+      <li><strong>{{ notice.date }}</strong> — {{ notice.text }}</li>
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}
+
+<h2>Latest Posts</h2>
